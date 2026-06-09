@@ -1,0 +1,37 @@
+[
+  {
+    "category": "Database",
+    "error_type": "Access denied for user",
+    "keywords": ["access denied"],
+    "root_cause": "Invalid credentials",
+    "solution": "Verify database username and password"
+  },
+  {
+    "category": "Database",
+    "error_type": "Unknown database",
+    "keywords": ["unknown database"],
+    "root_cause": "Database missing",
+    "solution": "Create database or verify name"
+  },
+  {
+    "category": "Database",
+    "error_type": "Duplicate entry",
+    "keywords": ["duplicate entry"],
+    "root_cause": "Unique constraint violation",
+    "solution": "Use unique values"
+  },
+  {
+    "category": "Database",
+    "error_type": "Connection refused",
+    "keywords": ["connection refused"],
+    "root_cause": "Database server unavailable",
+    "solution": "Start database service"
+  },
+  {
+    "category": "Database",
+    "error_type": "Table does not exist",
+    "keywords": ["does not exist"],
+    "root_cause": "Missing table",
+    "solution": "Verify table name and migrations"
+  }
+]

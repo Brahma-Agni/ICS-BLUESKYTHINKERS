@@ -1,0 +1,37 @@
+[
+  {
+    "category": "Git",
+    "error_type": "permission denied (publickey)",
+    "keywords": ["publickey"],
+    "root_cause": "SSH key missing",
+    "solution": "Add SSH key to Git provider"
+  },
+  {
+    "category": "Git",
+    "error_type": "authentication failed",
+    "keywords": ["authentication failed"],
+    "root_cause": "Invalid credentials",
+    "solution": "Verify username and token"
+  },
+  {
+    "category": "Git",
+    "error_type": "merge conflict",
+    "keywords": ["conflict"],
+    "root_cause": "Conflicting changes",
+    "solution": "Resolve conflicts manually"
+  },
+  {
+    "category": "Git",
+    "error_type": "detached HEAD",
+    "keywords": ["detached head"],
+    "root_cause": "HEAD not on branch",
+    "solution": "Checkout a branch"
+  },
+  {
+    "category": "Git",
+    "error_type": "not a git repository",
+    "keywords": ["not a git repository"],
+    "root_cause": "Wrong directory",
+    "solution": "Navigate to repository root"
+  }
+]

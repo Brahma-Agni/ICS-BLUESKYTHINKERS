@@ -1,0 +1,37 @@
+[
+  {
+    "category": "Installation",
+    "error_type": "pip command not found",
+    "keywords": ["pip not recognized"],
+    "root_cause": "Pip missing",
+    "solution": "Install Python and Pip"
+  },
+  {
+    "category": "Installation",
+    "error_type": "No matching distribution found",
+    "keywords": ["distribution found"],
+    "root_cause": "Package unavailable",
+    "solution": "Check package name and version"
+  },
+  {
+    "category": "Installation",
+    "error_type": "python not recognized",
+    "keywords": ["python not recognized"],
+    "root_cause": "Python not in PATH",
+    "solution": "Add Python to PATH"
+  },
+  {
+    "category": "Installation",
+    "error_type": "virtualenv not found",
+    "keywords": ["virtualenv"],
+    "root_cause": "Virtualenv missing",
+    "solution": "Install virtualenv package"
+  },
+  {
+    "category": "Installation",
+    "error_type": "JAVA_HOME not set",
+    "keywords": ["java_home"],
+    "root_cause": "Environment variable missing",
+    "solution": "Configure JAVA_HOME"
+  }
+]

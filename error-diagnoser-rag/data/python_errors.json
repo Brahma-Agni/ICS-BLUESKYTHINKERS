@@ -1,0 +1,72 @@
+[
+  {
+    "category": "Python",
+    "error_type": "ModuleNotFoundError",
+    "keywords": ["No module named"],
+    "root_cause": "Package not installed",
+    "solution": "Install the package using pip"
+  },
+  {
+    "category": "Python",
+    "error_type": "ImportError",
+    "keywords": ["cannot import name"],
+    "root_cause": "Import issue",
+    "solution": "Verify module and import statement"
+  },
+  {
+    "category": "Python",
+    "error_type": "SyntaxError",
+    "keywords": ["invalid syntax"],
+    "root_cause": "Incorrect syntax",
+    "solution": "Check brackets, quotes and colons"
+  },
+  {
+    "category": "Python",
+    "error_type": "IndentationError",
+    "keywords": ["unexpected indent"],
+    "root_cause": "Wrong indentation",
+    "solution": "Use consistent 4-space indentation"
+  },
+  {
+    "category": "Python",
+    "error_type": "TypeError",
+    "keywords": ["unsupported operand type"],
+    "root_cause": "Type mismatch",
+    "solution": "Verify variable types"
+  },
+  {
+    "category": "Python",
+    "error_type": "ValueError",
+    "keywords": ["invalid literal"],
+    "root_cause": "Invalid value",
+    "solution": "Check input values"
+  },
+  {
+    "category": "Python",
+    "error_type": "NameError",
+    "keywords": ["name is not defined"],
+    "root_cause": "Undefined variable",
+    "solution": "Define variable before use"
+  },
+  {
+    "category": "Python",
+    "error_type": "AttributeError",
+    "keywords": ["has no attribute"],
+    "root_cause": "Invalid object attribute",
+    "solution": "Check object type and method"
+  },
+  {
+    "category": "Python",
+    "error_type": "KeyError",
+    "keywords": ["keyerror"],
+    "root_cause": "Dictionary key missing",
+    "solution": "Check key existence"
+  },
+  {
+    "category": "Python",
+    "error_type": "IndexError",
+    "keywords": ["list index out of range"],
+    "root_cause": "Invalid index",
+    "solution": "Check list length"
+  }
+]

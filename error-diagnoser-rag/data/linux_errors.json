@@ -1,0 +1,37 @@
+[
+  {
+    "category": "Linux",
+    "error_type": "command not found",
+    "keywords": ["command not found"],
+    "root_cause": "Command unavailable",
+    "solution": "Install package or correct command"
+  },
+  {
+    "category": "Linux",
+    "error_type": "permission denied",
+    "keywords": ["permission denied"],
+    "root_cause": "Insufficient permissions",
+    "solution": "Use sudo or modify permissions"
+  },
+  {
+    "category": "Linux",
+    "error_type": "no space left on device",
+    "keywords": ["no space left"],
+    "root_cause": "Disk full",
+    "solution": "Free storage space"
+  },
+  {
+    "category": "Linux",
+    "error_type": "address already in use",
+    "keywords": ["already in use"],
+    "root_cause": "Port occupied",
+    "solution": "Kill process using port"
+  },
+  {
+    "category": "Linux",
+    "error_type": "connection timed out",
+    "keywords": ["timed out"],
+    "root_cause": "Network issue",
+    "solution": "Verify connectivity"
+  }
+]
